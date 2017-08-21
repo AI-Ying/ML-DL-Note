@@ -32,7 +32,7 @@ title('Feature Scaling');
 % 保存图片
 print png 'FeatureScaling.png';
 
-% 数据进行归一化
-fsdata = (rdata - mean(rdata)) ./ std(rdata);
+% 关闭图片
+close;
 
 end
