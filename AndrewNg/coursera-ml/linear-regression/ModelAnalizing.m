@@ -6,7 +6,7 @@
 
 function mdata = ModelAnalizing(rdata)
 
-% rdata(:,2) = rdata(:,2) .^ 2
+% rdata(:,2) = rdata(:,2) .^ 2;
 mdata = rdata;
 
 end
