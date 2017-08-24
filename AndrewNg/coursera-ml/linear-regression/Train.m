@@ -10,6 +10,7 @@ rdata = load('ex1data1.txt');
 % 数据归一化分析
 printf("数据归一化分析....\n")
 FeatureScaling(rdata);
+pause;
 
 % 数据模型处理
 printf("数据模型分析处理...\n")

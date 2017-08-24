@@ -23,6 +23,7 @@ legend('training data', 'hypothesis','testing data');
 print png 'train-test.png'
 
 printf("测试完成!\n");
+pause;
 
 % 关闭图片
 close
