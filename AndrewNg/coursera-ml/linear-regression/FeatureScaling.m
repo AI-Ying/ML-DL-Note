@@ -30,7 +30,7 @@ ylabel('Value');
 title('feature-scaling');
 
 % 保存图片
-print png 'FeatureScaling.png';
+print png 'feature-scaling.png';
 
 % 关闭图片
 close;
