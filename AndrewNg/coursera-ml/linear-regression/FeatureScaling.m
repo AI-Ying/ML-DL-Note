@@ -27,7 +27,7 @@ bar(min((rdata - mean(rdata)) ./ std(rdata)));
 % 图片参数
 xlabel('Feature');
 ylabel('Value');
-title('feature-scaling');
+title('FeatureScaling');
 
 % 保存图片
 print png 'feature-scaling.png';
